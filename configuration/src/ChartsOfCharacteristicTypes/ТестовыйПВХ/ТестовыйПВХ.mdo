@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14707bd2-749e-459a-8fb7-677db6e9746a">
+  <producedTypes>
+    <objectType typeId="4ada10ab-881a-4fe5-8f6f-d09d4c917693" valueTypeId="11ad4413-81ae-49ee-acfd-1fbba6f8e52e"/>
+    <refType typeId="7b43f960-cb7e-4399-ae75-bfa5b9d924aa" valueTypeId="2d3ed19c-0ba8-4f1e-9bbb-c8bdb8820c02"/>
+    <selectionType typeId="037844de-91af-4cc0-8f8e-75c10b54a55f" valueTypeId="86aab176-035a-47ac-8df0-c572406531d8"/>
+    <listType typeId="53a9bcfc-9641-4f1c-bdea-d91139fda464" valueTypeId="41d07a8a-0b6e-4ae1-a444-85cd04fc87eb"/>
+    <managerType typeId="8823f3fd-c032-41e6-aebe-43ae17f8b9b2" valueTypeId="227d4d26-1f23-4e49-b3c6-6321f96d0738"/>
+    <containerType typeId="ffedf083-64b4-473c-98f1-040a5cb586b3" valueTypeId="56734759-cb3a-4389-8c8f-e674019fe0c9"/>
+  </producedTypes>
+  <name>ТестовыйПВХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый ПВХ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ТестовыйПВХ.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ТестовыйПВХ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначениеОбъектов</characteristicExtValues>
+  <type>
+    <types>EnumRef.ЮрФизЛицо</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>Boolean</types>
+    <types>EnumRef.СтавкиНДС</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>String</types>
+    <types>CatalogRef.ЗначениеОбъектов</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>Date</types>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>Number</types>
+    <types>CatalogRef.Организации</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="86445e84-8bc7-4b83-8a3f-e68d9b73d61c">
+      <name>Организация</name>
+      <description>Организация</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ce51f93-fc8c-4f76-b376-173f88550ad1">
+  <name>Тестовая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовая</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
+  <content>InformationRegister.ТестовыйРегистр</content>
+  <content>AccumulationRegister.ТоварыНаСкладах</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ЗначениеОбъектов</content>
+  <content>ChartOfCharacteristicTypes.ТестовыйПВХ</content>
+</mdclass:Subsystem>

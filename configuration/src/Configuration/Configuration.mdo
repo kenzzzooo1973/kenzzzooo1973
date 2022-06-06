@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27ccd1da-286c-4eb2-a0cd-eaa02537785e">
+  <name>ТестоваяДляГитКонвертера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовая для гит конвертера</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f100a476-4192-473c-9b29-60ac0e444285"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1e692229-4e64-4e95-8772-5cc3399aa6f7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2d947da5-a1a5-46aa-b9e8-f2de5016651d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="269701b3-e47a-42ff-827f-fb0b53c6fcc5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6480a11c-0991-40bf-9eb7-f69016a3eda4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="10b0fa82-3e8f-4bd0-913e-9018ef02d001"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="23da5722-ee6a-4f1a-be83-32f9fe32fde1"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Тест</vendor>
+  <version>1.0.1.6</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <languages uuid="57903583-bfcb-4ac4-a9e0-ea33939eaf3b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Тестовая</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщийМодуль1</commonModules>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ЗначениеОбъектов</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.ЮрФизЛицо</enums>
+  <informationRegisters>InformationRegister.ТестовыйРегистр</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ТестовыйПВХ</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

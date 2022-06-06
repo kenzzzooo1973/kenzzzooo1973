@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66c1f754-0eac-4152-a944-7892bfdcb27a">
+  <producedTypes>
+    <selectionType typeId="70a8d808-d27d-49e9-97ed-47bb57205611" valueTypeId="39d43b3e-b1d8-4087-bd6c-8a99e2d3a850"/>
+    <listType typeId="cfb485d7-4b87-4e3c-b333-fbf8f1080dcf" valueTypeId="9555540c-a70e-45ff-9f54-be2bc87d19d2"/>
+    <managerType typeId="195c7348-814f-4186-bf44-5eee47cd87c3" valueTypeId="39a9e61b-1980-4dd5-92ea-750e18dbc3af"/>
+    <recordSetType typeId="29160430-a67a-46df-879c-0256dab1c45f" valueTypeId="2a134d7e-5d98-4852-90da-db6f3f82dc43"/>
+    <recordKeyType typeId="d892e32d-9676-4ee1-83b9-f00e8ab62623" valueTypeId="bc42f96a-77ef-423a-89e4-37702a505629"/>
+    <recordType typeId="2c732322-bdfb-42a6-93bc-b2f7f245d0e7" valueTypeId="50ed2a14-fd84-4ef5-a6ad-0b12b7b32aa3"/>
+    <recordManagerType typeId="cd9b1c7a-2ee8-4286-b3fa-ff7c85a53576" valueTypeId="646417b4-34b9-439f-bfeb-2b840369f291"/>
+  </producedTypes>
+  <name>ТестовыйРегистр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый регистр</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1d3ae104-2441-4d74-8c89-6080380b585b">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8d13ceb3-d9a2-424b-aed5-09cf2934b923">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
